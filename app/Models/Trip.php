@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Trip extends Model
 {
-    protected $fillable = ["title", "description", "latitude", "longitude"];
+    protected $fillable = ["title", "description", "latitude", "longitude", "email"];
 }
